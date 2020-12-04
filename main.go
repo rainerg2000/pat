@@ -291,6 +291,7 @@ func main() {
 		MyCall:     fOptions.MyCall,
 		Locator:    config.Locator,
 		AppVersion: versionStringShort(),
+		UserAgent:  PatUserAgent,
 		LineReader: readLine,
 	})
 
